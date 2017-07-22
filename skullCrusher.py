@@ -1,10 +1,8 @@
 import random, ui, time, sys, sound
 
-
-
 counter = 0
 timme = 30
-
+width, height = ui.get_screen_size()
 
 
 def GetRandom(sender): # Working
